@@ -2,31 +2,22 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>decendant selector</title>
+	<title>inheritance in css</title>
 	<style>
-		/*all li element inside section element*/
-		section li {
-			color: green;
+		header.navigation p {
+			color:blue;
+		}
+		p.blurb {
+			color: red;
+		}
+		p {
+			color: green !important;
 		}
 	</style>
 </head>
 <body>
-	<h1>decendant selector</h1>
-	<section>
-		Table of contents:
-		<ul>
-			<li>article 1</li>
-			<li>article 2</li>
-			<li>article 3</li>
-		</ul>
-	</section>
-	<article>
-		Shopping list:
-		<ul>
-			<li>cookies</li>
-			<li>cake</li>
-			<li>pie</li>
-		</ul>
-	</article>
+	<header class="navigation">
+		<p class="blurb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero soluta enim aut! Nihil nam obcaecati, fugiat sint sit libero voluptate eos incidunt odio neque cum, dignissimos aperiam, magnam nisi debitis.</p>
+	</header>
 </body>
 </html>
