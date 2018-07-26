@@ -2,18 +2,54 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>background</title>
+	<title>positioning elements</title>
 	<style>
-		#bg {
-			width: 500px;
-			height: 500px;
-			background: url("yaakov.png") no-repeat right center;
-			background-color: blue;
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+			margin-bottom: 15px;
+		}
+		div#container {
+			background-color: #00ffff;
+			position: relative;
+			top: 60px;
+		}
+		p {
+			width: 50px;
+			height: 50px;
+			border: 1px solid black;
+			margin-bottom: 15px;
+		}
+		#p1 {
+			background-color: #a52a2a;
+			position: relative;
+			top: 65px;
+			left: 65px;
+		}
+		#p2 {
+			background-color: #deb887;
+		}
+		#p3 {
+			background-color: #5f9ea0;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		#p4 {
+			background-color: #ff7f50;
 		}
 	</style>
 </head>
 <body>
-	<h1>the background property</h1>
-	<div id="bg">background property are fun</div>
+	<h1>positioning elements</h1>
+	<div id="container">
+		<p id="p1"></p>
+		<p id="p2"></p>
+		<p id="p3"></p>
+		<p id="p4"></p>
+	</div>
 </body>
 </html>
