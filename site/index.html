@@ -2,54 +2,130 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>positioning elements</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>responsive layout</title>
 	<style>
+		/*base design*/
 		* {
 			box-sizing: border-box;
-			margin: 0;
-			padding: 0;
 		}
 		h1 {
 			margin-bottom: 15px;
 		}
-		div#container {
-			background-color: #00ffff;
-			position: relative;
-			top: 60px;
-		}
 		p {
-			width: 50px;
-			height: 50px;
 			border: 1px solid black;
-			margin-bottom: 15px;
-		}
-		#p1 {
 			background-color: #a52a2a;
-			position: relative;
-			top: 65px;
-			left: 65px;
+			width: 90%;
+			height: 150px;
+			margin-right: auto;
+			margin-left: auto;
+			font-family: Helvetica;
+			color: white;
 		}
-		#p2 {
-			background-color: #deb887;
+		/*simple responsive framework*/
+		.row {
+			width: 100%;
 		}
-		#p3 {
-			background-color: #5f9ea0;
-			position: absolute;
-			top: 0;
-			left: 0;
+		/*large device only*/
+		@media (min-width: 1200px) {
+			.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+				float: left;
+				border: 1px solid green;
+			}
+			.col-lg-1 {
+				width: 8.33%;
+			}
+			.col-lg-2 {
+				width: 16.66%;
+			}
+			.col-lg-3 {
+				width: 25%;
+			}
+			.col-lg-4 {
+				width: 33.33%;
+			}
+			.col-lg-5 {
+				width: 41.66%;
+			}
+			.col-lg-6 {
+				width: 50%;
+			}
+			.col-lg-7 {
+				width: 58.33%;
+			}
+			.col-lg-8 {
+				width: 66.66%;
+			}
+			.col-lg-9 {
+				width: 75%;
+			}
+			.col-lg-10 {
+				width: 83.33%;
+			}
+			.col-lg-11 {
+				width: 91.66%;
+			}
+			.col-lg-12 {
+				width: 100%;
+			}
 		}
-		#p4 {
-			background-color: #ff7f50;
+		/*medium device only*/
+		@media (min-width: 950px) and (max-width: 1199px) {
+			.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+				float: left;
+				border: 1px solid green;
+			}
+			.col-md-1 {
+				width: 8.33%;
+			}
+			.col-md-2 {
+				width: 16.66%;
+			}
+			.col-md-3 {
+				width: 25%;
+			}
+			.col-md-4 {
+				width: 33.33%;
+			}
+			.col-md-5 {
+				width: 41.66%;
+			}
+			.col-md-6 {
+				width: 50%;
+			}
+			.col-md-7 {
+				width: 58.33%;
+			}
+			.col-md-8 {
+				width: 66.66%;
+			}
+			.col-md-9 {
+				width: 75%;
+			}
+			.col-md-10 {
+				width: 83.33%;
+			}
+			.col-md-11 {
+				width: 91.66%;
+			}
+			.col-md-12 {
+				width: 100%;
+			}
 		}
 	</style>
 </head>
 <body>
-	<h1>positioning elements</h1>
-	<div id="container">
-		<p id="p1"></p>
-		<p id="p2"></p>
-		<p id="p3"></p>
-		<p id="p4"></p>
+	<h1>responsive layout</h1>
+	<div class="row">
+		<div class="col-lg-3 col-md-6"><p>Item 1</p></div>
+		<div class="col-lg-3 col-md-6"><p>Item 2 wow this is cool</p></div>
+		<div class="col-lg-3 col-md-6"><p>Item 3</p></div>
+		<div class="col-lg-3 col-md-6"><p>Item 4</p></div>
+		<div class="col-lg-3 col-md-6"><p>Item 5 this is cool</p></div>
+		<div class="col-lg-3 col-md-6"><p>Item 6</p></div>
+		<div class="col-lg-3 col-md-6"><p>Item 7</p></div>
+		<div class="col-lg-3 col-md-6"><p>Item 8</p></div>
 	</div>
+	
 </body>
 </html>
