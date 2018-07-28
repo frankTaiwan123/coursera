@@ -1,7 +1,6 @@
-.row {
-	margin-bottom: 15px;
-}
-.row > div {
-	border: 2px solid red;
-	background-color: gray;
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
 }
