@@ -8,9 +8,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Here are some site you can visit:
 
-Do you want a WebGL game? https://franktaiwan123.github.io/htmlgame/gametest/
-Do you want a hacking example (fake website)? https://franktaiwan123.github.io/hacked/
-Do you want web examples? https://franktaiwan123.github.io/coursera/assignment2/
-                          https://franktaiwan123.github.io/coursera/assignment3/
-                          https://franktaiwan123.github.io/coursera/course3/
+Do you want a WebGL game? https://franktaiwan123.github.io/htmlgame/gametest/<br>
+Do you want a hacking example (fake website)? https://franktaiwan123.github.io/hacked/<br>
+Do you want web examples? https://franktaiwan123.github.io/coursera/assignment2/<br>
+Another examples? https://franktaiwan123.github.io/coursera/assignment3/<br>
+One another examples? https://franktaiwan123.github.io/coursera/course3/<br>
 Do you want to fellow my path? https://franktaiwan123.github.io/coursera/site/
