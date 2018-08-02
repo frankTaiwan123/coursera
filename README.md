@@ -6,32 +6,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Here are some site you can visit:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/frankTaiwan123/coursera/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Do you want a WebGL game? https://franktaiwan123.github.io/htmlgame/gametest/<br>
+Do you want a hacking example (fake website)? https://franktaiwan123.github.io/hacked/<br>
+Do you want web examples? https://franktaiwan123.github.io/coursera/assignment2/<br>
+Another examples? https://franktaiwan123.github.io/coursera/assignment3/<br>
+One another examples? https://franktaiwan123.github.io/coursera/course3/<br>
+Do you want to fellow my path? https://franktaiwan123.github.io/coursera/site/
