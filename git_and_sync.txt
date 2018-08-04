@@ -3,5 +3,5 @@ git status
 git add .
 git commit -m "my first page"
 git push
-browser-sync start --server --directory --files "*"
+browser-sync start --server --directory --files "**/*"
 D://sublime/sublime_text.exe .
