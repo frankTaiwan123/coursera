@@ -1,10 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to My GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/frankTaiwan123/coursera/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a space of coursera's website class，some html/css/js source can be seen in the github.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### Websites
 
 Here are some site you can visit:
 
